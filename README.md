@@ -35,9 +35,11 @@ project-root/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
-Key Directories
+## Key Directories
 
+`````
     public/: Contains static assets served directly by the server.
     src/: Contains the main application code.
         api/: API-related code and resources.
@@ -49,27 +51,27 @@ Key Directories
         context/: Context providers.
         layout/: Layout components.
         pages/: Individual page components.
-        utils/: Utility functions and helpers.
+        utils/: Utility functions and helpers. ```
 
-Installation
+### Installation
 
     Clone the repository:
 
-git clone <repository-url>
+```git clone <repository-url>```
 
 Navigate to the project directory:
 
-cd <project-directory>
+```cd <project-directory>```
 
 Install dependencies:
 
 Using npm:
 
-npm install
+```npm install```
 
 Or using yarn:
 
-    yarn install
+    ```yarn install```
 
 Running the Application
 
@@ -77,11 +79,11 @@ To start the development server:
 
 Using npm:
 
-npm run dev
+```npm run dev````
 
 Or using yarn:
 
-yarn dev
+```yarn dev```
 
 This will start the Vite development server. Open your browser and navigate to http://localhost:5173 (or the port shown in your terminal) to view the application.
 Building for Production
@@ -90,11 +92,11 @@ To build the application for production:
 
 Using npm:
 
-npm run build
+```npm run build```
 
 Or using yarn:
 
-yarn build
+```yarn build```
 
 This will generate a dist folder with the production-ready files.
 Linting
@@ -137,4 +139,4 @@ Configuration Files
 
 Contributing
 
-```
+`````
